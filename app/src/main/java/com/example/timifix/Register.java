@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
@@ -28,6 +29,7 @@ public class Register extends AppCompatActivity {
     TextInputEditText editTextEmail,editTextPassword;
     Button buttonReg;
     FirebaseAuth mAuth;
+    TextView textView;
 
     ProgressBar progressBar;
     @SuppressLint("MissingInflatedId")
@@ -42,6 +44,7 @@ public class Register extends AppCompatActivity {
         editTextPassword=findViewById(R.id.password);
         buttonReg=findViewById(R.id.btn_register);
         progressBar.findViewById(R.id.progressBar);
+        textView=findViewById(R.id.loginNow);
         buttonReg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
