@@ -58,6 +58,7 @@
                 android:layout_alignParentEnd="true"
                 android:layout_marginTop="35dp"
                 android:layout_marginEnd="5dp"
+                android:onClick="@string/side_sheet_behavior"
                 android:text="Profile Settings" />
 
             <LinearLayout
@@ -105,9 +106,10 @@
         app:layout_anchorGravity="center" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/homeButton"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
+        android:onClick="goToHome"
         android:text="Home"
         app:layout_anchor="@+id/nestedScrollView"
         app:layout_anchorGravity="end|center" />

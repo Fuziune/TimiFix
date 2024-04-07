@@ -18,7 +18,16 @@
           <timeTargetWasSelectedWithDropDown value="2024-04-06T17:25:09.931965300Z" />
         </State>
       </entry>
+      <entry key="Register">
+        <State />
+      </entry>
       <entry key="app">
+        <State />
+      </entry>
+      <entry key="profile">
+        <State />
+      </entry>
+      <entry key="register">
         <State />
       </entry>
     </value>
